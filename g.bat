@@ -1,0 +1,1 @@
+node index.js maps/map3.txt

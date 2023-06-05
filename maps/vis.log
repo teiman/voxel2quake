@@ -1,0 +1,17 @@
+---- vis / ericw-tools v0.18.1 ----
+running with 20 threads
+testlevel = 4
+LoadBSPFile: 'final.bsp'
+BSP is version 29
+    82 leafs
+   197 portals
+Calculating Base Vis:
+0....1....2....3....4....5....6....7....8....9....
+Calculating Full Vis:
+0....1....2....3....4....5....6....7....8....9....
+average leafs visible: 37
+c_noclip: 0
+c_chains: 12857
+visdatasize:963  compressed from 902
+Writing final.bsp as BSP version 29
+  0.0 seconds elapsed

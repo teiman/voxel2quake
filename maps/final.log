@@ -1,0 +1,158 @@
+---- qbsp / ericw-tools v0.18.1 ----
+Input file: final.map
+Output file: final.bsp
+
+---- LoadMapFile ----
+*** WARNING 06: No info_player_deathmatch entities in level
+          720 faces
+          120 brushes
+            3 entities
+            2 unique texnames
+           12 texinfo
+
+Opened WAD: D:/mapping/temple.wad
+Processing hull 0...
+---- Brush_LoadEntity ----
+          120 brushes
+           49 planes
+---- CSGFaces ----
+          720 brushfaces
+          518 csgfaces
+          204 mergedfaces
+---- SolidBSP ----
+          253 split nodes
+           59 solid leafs
+          156 empty leafs
+           39 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+         1247 leaffaces
+         1241 nodefaces
+---- Portalize ----
+          195 vis leafs
+          195 vis clusters
+          470 vis portals
+---- FillOutside ----
+          100 outleafs
+---- MergeAll ----
+          188 mergefaces
+---- SolidBSP ----
+          198 split nodes
+          117 solid leafs
+           49 empty leafs
+           33 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+          814 leaffaces
+          806 nodefaces
+---- Portalize ----
+           82 vis leafs
+           82 vis clusters
+          197 vis portals
+---- Tjunc ----
+          407 world edges
+         2293 edge points
+          594 edges added by tjunctions
+            0 faces added by tjunctions
+---- MakeFaceEdges ----
+---- GrowRegions ----
+Processing hull 1...
+---- Brush_LoadEntity ----
+          120 brushes
+          135 planes
+---- CSGFaces ----
+          720 brushfaces
+          741 csgfaces
+          174 mergedfaces
+---- SolidBSP ----
+          243 split nodes
+           92 solid leafs
+          152 empty leafs
+            0 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+         1292 leaffaces
+         1287 nodefaces
+---- Portalize ----
+---- FillOutside ----
+*** WARNING 19: No entities in empty space -- no filling performed (hull 1)
+Processing hull 2...
+---- Brush_LoadEntity ----
+          120 brushes
+          211 planes
+---- CSGFaces ----
+          720 brushfaces
+          741 csgfaces
+          174 mergedfaces
+---- SolidBSP ----
+          243 split nodes
+           92 solid leafs
+          152 empty leafs
+            0 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+         1240 leaffaces
+         1235 nodefaces
+---- Portalize ----
+---- FillOutside ----
+*** WARNING 19: No entities in empty space -- no filling performed (hull 2)
+            0 texture frames added
+---- WriteBSPFile ----
+Wrote final.bsp
+          111 planes             2220
+          954 vertexes          11448
+          198 nodes              4752
+           12 texinfo             480
+          806 faces             16120
+          486 clipnodes          3888
+           83 leafs              2324
+          814 marksurfaces       1628
+         3818 surfedges         15272
+         1910 edges              7640
+            2 textures          49052
+              lightdata             0
+              visdata               0
+              entdata             278
+
+0.114 seconds elapsed
+
+Data type        CurrentNum    PeakNum      PeakMem
+BSPEntity               277        277          277         
+BSPPlane                216        357         7140     7.0k
+BSPTex                49052      49052        49052    47.9k
+BSPVertex               954       4772        57264    55.9k
+BSPVis                    0          0            0         
+BSPNode                 198        198         4752     4.6k
+BSPTexinfo               12         12          480         
+BSPFace                 806        806        16120    15.7k
+BSPLight                  0          0            0         
+BSPClipnode             486        729         5832     5.7k
+BSPLeaf                  83         83         2324     2.3k
+BSPMarksurface          814        814         1628     1.6k
+BSPEdge                1910       5729        22916    22.4k
+BSPSurfedge            3818       3818        15272    14.9k
+BSPModel                  1          1           80         
+Mapface                   0          0            0         
+Mapbrush                  0          0            0         
+Mapentity                 0          0            0         
+Winding                2052       2053       418812   409.0k
+Face                    806       2822      4605504     4.4M
+Plane                     0          0            0         
+Portal                 2052       2052        98496    96.2k
+Surface                   0         76         7296     7.1k
+Node                    397        884       127296   124.3k
+Brush                     0        120         8640     8.4k
+Miptex                    0          0            0         
+World verts               0       6448       154752   151.1k
+World edges               0       3224       257920   251.9k
+Hash verts                0          0            0         
+Other                 44952      97624        97624    95.3k
+Total                                       5274296     5.0M
